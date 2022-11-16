@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 2830px;
+}
+
+.my-navbar {
+    /* height: 4.5rem; */
+    background: white;
+}
+
+.logo {
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 2.5rem;
+}
+
+.linkpages a {
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 1.7rem;
+    padding: 0px 20px !important;
+    text-align: center;
+}
+
+.linkpages a:hover {
+    text-decoration: underline;
+}
+
+
+/* home section start */
+
+#home {
+    background-color: black;
+}
+
+.my-banner img {
+    height: 579px;
+    width: 61% !important;
+    margin: 3% 44%;
+}
+
+.home-text {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    margin: 16% 12%;
+    color: white !important;
+}
+
+.home-text h1 {
+    font-size: 5rem;
+}
+
+.home-text h3 {
+    font-size: 2.5rem;
+}
+
+.my-btn {
+    margin: -14% 4%;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+
+/* home sectioin end */
+
+
+/* about section start */
+
+.my-skill {
+    background: black;
+}
+
+#about,
+#skill,
+#contact h1 {
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+#about h3 {
+    font-size: 3rem;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+#about p {
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+#project .container {
+    background: black;
+}
+
+#project h1 {
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+#project .card img {
+    height: 20rem !important;
+}
+
+#project .card h4 {
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+
+/* about section end */
+
+
+/* skill section start */
+
+.progress-title {
+    width: 100%;
+    height: auto;
+}
+
+.progress-title h3 {
+    margin: 2% 2% 1% 0%;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.progress {
+    height: 2rem;
+}
+
+.progress .progress-value {
+    width: 65%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 1.5rem;
+    border: 1px solid aqua;
+}
+
+.progress .progress-value h3 {
+    margin-top: -5px;
+    text-align: black;
+    text-align: center;
+    background: antiquewhite;
+    width: 101%;
+}
+
+
+/* skill section end */
+
+
+/* contact */
+
+.my-btn-2,
+.my-input {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 1.5rem;
+}
+
+.my-facebook,
+.my-instagram,
+.my-gmail {
+    padding: 5px;
+    font-size: 2rem;
+}
+
+.footer {
+    background: black;
+}
+
+footer h1 {
+    font-size: 2rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+
+/* responsive css */
+
+@media screen and (min-width:100px) and (max-width:500px) {
+    .logo {
+        font-size: 1.4rem;
+    }
+    .linkpages a {
+        font-size: 1.4rem;
+    }
+    #project .card img {
+        height: 12rem !important;
+    }
+}
+
+@media screen and (min-width:100px) and (max-width:600px) {
+    .my-banner img {
+        height: 435px;
+        min-height: 435px;
+        width: 223% !important;
+        min-width: 189%;
+        margin: 5% -54%;
+        padding: 2% 2% 0% 21%;
+    }
+    .home-text h1 {
+        font-size: 3.3rem;
+        text-align: center;
+        margin-top: 30rem;
+    }
+    .home-text h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .my-btn-2 {
+        width: 53%;
+        height: 3rem;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:850px) {
+    .my-banner img {
+        height: 435px;
+        min-height: 435px;
+        width: 135% !important;
+        min-width: 135%;
+        margin: 5% 1%;
+        padding: 2% 2% 0% 21%;
+    }
+    .home-text h1 {
+        font-size: 3.3rem;
+        text-align: center;
+        margin-top: 14rem;
+        margin-left: -17rem;
+    }
+    .home-text h3 {
+        font-size: 1.5rem;
+        margin-left: -15rem;
+        text-align: center;
+    }
+    .my-btn-2 {
+        width: 53%;
+        height: 3rem;
+    }
+}
+
+@media screen and (min-width:850px) and (max-width:1300px) {
+    .my-banner img {
+        height: 435px;
+        min-height: 435px;
+        width: 102% !important;
+        min-width: 102%;
+        max-width: 135%;
+        margin: 5% 13%;
+        padding: 2% 2% 0% 21%;
+    }
+    .home-text h1 {
+        font-size: 4rem;
+        text-align: center;
+        margin-top: 14rem;
+        margin-left: -25rem;
+    }
+    .home-text h3 {
+        font-size: 2rem;
+        margin-left: -23rem;
+        text-align: center;
+    }
+    .my-btn-2 {
+        width: 53%;
+        height: 3rem;
+    }
+}
